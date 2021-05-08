@@ -6,7 +6,7 @@ A wrapper to access iCloud.com apps such as Mail, Contacts, Calendar, Notes, Rem
 
 [![iCloud Desktop screenshot](https://i.imgur.com/K6nWbCV.png)](https://i.imgur.com/tC1HyTj.png)
 
-This app was made using .NET Core 3.1, WPF and WebView2 for rendering web pages.
+This app was made using .NET Core 3.1, WPF and WebView2 for rendering web pages. Title bar icons are from the [Feather open-source icon collection](https://feathericons.com/).
 
 I originally developed it for personal purposes and to train myself on using [WindowChrome](https://docs.microsoft.com/en-us/dotnet/api/system.windows.shell.windowchrome) for window customization. I think I nailed it.
 
@@ -22,6 +22,8 @@ Since it uses [WebView2](https://developer.microsoft.com/en-us/microsoft-edge/we
 - Windows Server 2012
 - Windows Server 2012 R2
 - Windows Server 2008 R2
+
+It is compiled for **x86**, **x64** and **ARM-x64** architectures and is available in portable and installable formats.
 
 You may need to install the WebView2 Runtime if it is not already on your computer.
 **Install it from here (download the Evergreen Bootstrapper or Standalone Installer) :** https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section
