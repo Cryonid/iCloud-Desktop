@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>iCloud_Desktop</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <Authors>Cryonid</Authors>
+    <Description>Access iCloud.com apps such as Mail, Contacts, Calendar, Notes, Reminders and more from your desktop.</Description>
+    <ApplicationIcon>Icons\icloud.ico</ApplicationIcon>
+    <PackageLicenseExpression>This software is under the GNU GPLv3 license. You can find more information about this license on the GNU.org website: https://www.gnu.org/licenses/gpl-3.0.fr.html.</PackageLicenseExpression>
+    <PackageIcon>icloud.ico</PackageIcon>
+    <RepositoryUrl>https://github.com/Cryonid/iCloud-Desktop</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Cryonid/iCloud-Desktop</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\arrow-left.png" />
+    <None Remove="Icons\home.png" />
+    <None Remove="Icons\minus.png" />
+    <None Remove="Icons\rotate-cw.png" />
+    <None Remove="Icons\square.png" />
+    <None Remove="Icons\x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.818.41" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icons\arrow-left.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\home.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\minus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\rotate-cw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\square.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\x.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
