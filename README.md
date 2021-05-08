@@ -2,6 +2,8 @@
 
 A wrapper to access iCloud.com apps such as Mail, Contacts, Calendar, Notes, Reminders and more from your desktop.
 
+[Download the latest version of iCloud Desktop here!](https://github.com/Cryonid/iCloud-Desktop/releases/)
+
 [![iCloud Desktop screenshot](https://imgur.com/K6nWbCV.png)](https://imgur.com/tC1HyTj.png)
 
 This app was made using .NET Core 3.1, WPF and WebView2 for rendering web pages.
